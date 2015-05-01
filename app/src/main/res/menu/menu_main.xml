@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/Inicio"
+        android:title="@string/inicio"
+        android:icon="@android:drawable/ic_menu_view"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" >
+
+    <menu>
+        <item
+            android:id="@+id/clientes"
+            android:title="@string/clientes"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/productos"
+            android:title="@string/productos"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/categoria"
+            android:title="@string/categoria"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/vendedor"
+            android:title="@string/vendedor"
+            app:showAsAction="never"/>
+
+    </menu>
+    </item>
+
+
+    <item android:id="@+id/reportes"
+        android:title="@string/reportes"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText">
+    <menu>
+        <item android:id="@+id/reporteP"
+            android:title="@string/reporteP"
+            app:showAsAction="ifRoom"/>
+
+        <item android:id="@+id/reporteV"
+            android:title="@string/reporteV"
+            app:showAsAction="ifRoom"/>
+
+    </menu>
+
+</item>
+
+
+</menu>

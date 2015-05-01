@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Examen01</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="inicio">Inicio</string>
+    <string name="clientes">clientes</string>
+    <string name="productos">productos</string>
+    <string name="categoria">categoria</string>
+    <string name="vendedor">vendedor</string>
+
+    <string name="platos1">Platos1</string>
+    <string name="platos2">Platos2</string>
+
+    <string name="reportes">reportes</string>
+    <string name="reporteP">reporteP</string>
+    <string name="reporteV">reporteV</string>
+
+
+    <string-array name="nombre_pedido">
+         <item>Seleccionar</item>
+        <item>Papa a la huancaina</item>
+        <item>Pescado Frito</item>
+        <item>Pollo al Horno</item>
+        <item>Estofado de Gluten</item>
+        <item>Arroz con pollo</item>
+    </string-array>
+    <string name="title_activity_chaufa">Chaufa</string>
+    <string name="title_activity_juane">Juane</string>
+    <string name="title_activity_saltado">Saltado</string>
+    <string name="title_activity_cebiche">Cebiche</string>
+    <string name="title_activity_tacacho">Tacacho</string>
+    <string name="title_activity_tallarines">Tallarines</string>
+    <string name="title_activity_listrow">listrow</string>
+
+
+
+
+
+
+</resources>

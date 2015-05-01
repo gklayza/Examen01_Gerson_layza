@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.examenprueba.img1"
+    android:id="@+id/ids">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Descripcion"
+        android:id="@+id/textView"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:textColor="#ff000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="103dp" />
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/juane"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:onClick="Juane"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="El Juane es uno de los principales platos típicos de la gastronomía de la selva peruana, consumido y presentado con mayor frecuencia durante la fiesta de San Martin ."
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageButton" />
+
+</RelativeLayout>

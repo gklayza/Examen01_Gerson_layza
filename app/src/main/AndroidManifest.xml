@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gerson.usuario.examen01" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Chaufa"
+            android:label="@string/title_activity_chaufa" >
+        </activity>
+        <activity
+            android:name=".Juane"
+            android:label="@string/title_activity_juane" >
+        </activity>
+        <activity
+            android:name=".Saltado"
+            android:label="@string/title_activity_saltado" >
+        </activity>
+        <activity
+            android:name=".Cebiche"
+            android:label="@string/title_activity_cebiche" >
+        </activity>
+        <activity
+            android:name=".Tacacho"
+            android:label="@string/title_activity_tacacho" >
+        </activity>
+        <activity
+            android:name=".Tallarines"
+            android:label="@string/title_activity_tallarines" >
+        </activity>
+        <activity
+            android:name=".listrow"
+            android:label="@string/title_activity_listrow" >
+        </activity>
+    </application>
+
+</manifest>
